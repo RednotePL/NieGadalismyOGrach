@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NieGadalismyOGrach"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="754.155">
+        Title="MainWindow" Height="450" Width="754.155" Left="20">
     <Grid>
-        <Button x:Name="Butt1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Butt1_Click" />
+        <Button x:Name="Butt1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" Click="Butt1_Click" Margin="370,203,0,0" />
     </Grid>
 </Window>
