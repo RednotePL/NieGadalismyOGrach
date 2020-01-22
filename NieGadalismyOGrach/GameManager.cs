@@ -1,4 +1,4 @@
-﻿using NieGadalismyOGrach.Interfaces.Implementations;
+﻿using NieGadalismyOGrach.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +13,12 @@ namespace NieGadalismyOGrach
         /// <summary>
         /// Queue to hold all level references
         /// </summary>
-        private List<GameStage> levels = new List<GameStage>();
+        private List<IGameStage> levels = new List<IGameStage>();
 
         /// <summary>
         /// Holds currently playing level
         /// </summary>
-        private GameStage currentLevel = null;
+        private IGameStage currentLevel = null;
 
         /// <summary>
         /// Starts a new game
@@ -43,7 +43,7 @@ namespace NieGadalismyOGrach
             currentLevel.OnStageWin += OnStageWin;
             currentLevel.OnStageLose += OnStageLose;
 
-            currentLevel.Show();
+            ((Window)currentLevel).Show();
             currentLevel.OnStageStart();
         }
 
@@ -81,7 +81,7 @@ namespace NieGadalismyOGrach
         /// Dequeues a level from list, and then shuffle it to randomize
         /// </summary>
         /// <returns></returns>
-        private GameStage Dequeue()
+        private IGameStage Dequeue()
         {
             if (!levels.Any())
             {
@@ -89,7 +89,7 @@ namespace NieGadalismyOGrach
             }
             else
             {
-                GameStage r = levels.First();
+                IGameStage r = levels.First();
                 levels.Remove(r);
 
                 levels.Shuffle();
@@ -108,7 +108,7 @@ namespace NieGadalismyOGrach
             currentLevel.OnStageLose -= OnStageLose;
             currentLevel.OnStageWin -= OnStageWin;
 
-            currentLevel.Close();
+            ((Window)currentLevel).Close();
         }
 
         /// <summary>

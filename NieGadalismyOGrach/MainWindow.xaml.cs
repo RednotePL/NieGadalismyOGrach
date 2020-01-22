@@ -90,46 +90,47 @@ namespace NieGadalismyOGrach
                 POINT p = new POINT();
                 GetCursorPos(out p);
                 this.Dispatcher.Invoke(DispatcherPriority.Normal,
-                    new Action(() => {
+                    new Action(() =>
+                    {
                         Point[] PanicArea = calculateObjectPanicArea(Butt1);
                         Point MousePoint = calculateMousePoint();
-                        Point[] WindowArea = new Point[] { new Point(0, 0), new Point(this.ActualWidth,this.Height - 30) };
-                        if (isMouseInBound(PanicArea,MousePoint) &&isMouseInBound(WindowArea, MousePoint))
+                        Point[] WindowArea = new Point[] { new Point(0, 0), new Point(this.ActualWidth, this.Height - 30) };
+                        if (isMouseInBound(PanicArea, MousePoint) && isMouseInBound(WindowArea, MousePoint))
                         {
-                        if(MousePoint.X >= PanicArea[0].X && MousePoint.X <= Butt1.Margin.Left)
-                        {
-                            ControlMove(Butt1,new Thickness(Butt1.Margin.Left+new Random().Next(0,10), Butt1.Margin.Top,0,0));
+                            if (MousePoint.X >= PanicArea[0].X && MousePoint.X <= Butt1.Margin.Left)
+                            {
+                                ControlMove(Butt1, new Thickness(Butt1.Margin.Left + new Random().Next(0, 10), Butt1.Margin.Top, 0, 0));
+                            }
+                            else if (MousePoint.X <= PanicArea[1].X && MousePoint.X >= Butt1.Margin.Left + Butt1.Width)
+                            {
+                                ControlMove(Butt1, new Thickness(Butt1.Margin.Left - new Random().Next(0, 10), Butt1.Margin.Top, 0, 0));
+                            }
+                            if (MousePoint.Y >= PanicArea[0].Y && MousePoint.Y <= Butt1.Margin.Top)
+                            {
+                                ControlMove(Butt1, new Thickness(Butt1.Margin.Left, Butt1.Margin.Top + new Random().Next(0, 10), 0, 0));
+                            }
+                            else if (MousePoint.Y <= PanicArea[1].Y && MousePoint.Y >= Butt1.Margin.Top + 30)
+                            {
+                                ControlMove(Butt1, new Thickness(Butt1.Margin.Left, Butt1.Margin.Top - new Random().Next(0, 10), 0, 0));
+                            }
                         }
-                        else if(MousePoint.X <= PanicArea[1].X && MousePoint.X >= Butt1.Margin.Left + Butt1.Width)
-                        {
-                            ControlMove(Butt1,new Thickness(Butt1.Margin.Left - new Random().Next(0, 10), Butt1.Margin.Top, 0, 0));
-                        }
-                        if (MousePoint.Y >= PanicArea[0].Y && MousePoint.Y <= Butt1.Margin.Top)
-                        {
-                            ControlMove(Butt1,new Thickness(Butt1.Margin.Left, Butt1.Margin.Top + new Random().Next(0, 10), 0, 0));
-                        }
-                        else if (MousePoint.Y <= PanicArea[1].Y && MousePoint.Y >= Butt1.Margin.Top + 30)
-                        {
-                            ControlMove(Butt1,new Thickness(Butt1.Margin.Left, Butt1.Margin.Top - new Random().Next(0, 10), 0, 0));
-                        }
-                        }
-
                     }));
                 await Task.Delay(1);
             }
         }
+
         public void ControlMove(Control con, Thickness margin)
         {
             Thickness margin_new = new Thickness();
-            if(margin.Left > 0)
+            if (margin.Left > 0)
             {
-                if(margin.Left + con.Width*2+4 <= this.ActualWidth)
+                if (margin.Left + con.Width * 2 + 4 <= this.ActualWidth)
                 {
                     margin_new.Left = margin.Left;
                 }
                 else
                 {
-                    margin_new.Left = this.ActualWidth - con.Width*2+4;
+                    margin_new.Left = this.ActualWidth - con.Width * 2 + 4;
                 }
             }
             else
@@ -153,23 +154,31 @@ namespace NieGadalismyOGrach
             }
             con.Margin = margin_new;
         }
+
         public Point[] calculateObjectPanicArea(Control con)
         {
-            return new Point[]{new Point(con.Margin.Left - 20,con.Margin.Top - 20),new Point(con.Margin.Left +con.Width + 20, con.Margin.Top + 50) };
+            return new Point[] { new Point(con.Margin.Left - 20, con.Margin.Top - 20), new Point(con.Margin.Left + con.Width + 20, con.Margin.Top + 50) };
         }
+
         public bool isMouseInBound(Point[] Bound, Point Mouse)
         {
             if (Mouse.X >= Bound[0].X && Mouse.X <= Bound[1].X && Mouse.Y >= Bound[0].Y && Mouse.Y <= Bound[1].Y) return true;
             else return false;
         }
+
         public Point calculateMousePoint()
         {
             POINT p = new POINT();
             GetCursorPos(out p);
 
-            return new Point(p.X - this.Left - 8,p.Y - this.Top - 31);
+            return new Point(p.X - this.Left - 8, p.Y - this.Top - 31);
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CounterDecrease cd = new CounterDecrease();
+            cd.Show();
+        }
     }
 
     /// <summary>
@@ -179,6 +188,7 @@ namespace NieGadalismyOGrach
     public struct POINT
     {
         public int X;
+
         public int Y;
 
         public POINT(int x, int y)

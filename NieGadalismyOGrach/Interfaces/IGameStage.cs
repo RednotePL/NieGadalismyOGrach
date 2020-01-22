@@ -8,8 +8,10 @@ namespace NieGadalismyOGrach.Interfaces
 {
     internal interface IGameStage
     {
-        string StageName { get; set; }
+        string StageName { get; }
+
         Action OnStageWin { get; set; }
+
         Action OnStageLose { get; set; }
 
         void OnStageStart();
