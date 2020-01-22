@@ -104,5 +104,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FunctionLibrary\FunctionLibrary.csproj">
+      <Project>{f7d0c77f-829a-4f94-a166-3416de51d41e}</Project>
+      <Name>FunctionLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
