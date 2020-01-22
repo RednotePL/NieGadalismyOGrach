@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NieGadalismyOGrach.Interfaces
 {
-    internal interface IGameStage
+    public interface IGameStage
     {
         string StageName { get; }
 

@@ -23,9 +23,14 @@ namespace NieGadalismyOGrach
     /// </summary>
     public partial class MainWindow : Window
     {
+        private GameManager gameManager;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            gameManager = new GameManager();
+            gameManager.EnqueueLevel(new CounterDecrease());
         }
 
         private void Butt1_Click(object sender, RoutedEventArgs e)
@@ -38,6 +43,11 @@ namespace NieGadalismyOGrach
         {
             CounterDecrease cd = new CounterDecrease();
             cd.Show();
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            gameManager.ForceCloseAllLLevels();
         }
     }
 }

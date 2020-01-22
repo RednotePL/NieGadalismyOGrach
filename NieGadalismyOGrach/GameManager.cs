@@ -16,6 +16,11 @@ namespace NieGadalismyOGrach
         private List<IGameStage> levels = new List<IGameStage>();
 
         /// <summary>
+        /// List holding all game levels, used to close any lingering windows
+        /// </summary>
+        private List<IGameStage> allLevels = new List<IGameStage>();
+
+        /// <summary>
         /// Holds currently playing level
         /// </summary>
         private IGameStage currentLevel = null;
@@ -34,11 +39,26 @@ namespace NieGadalismyOGrach
         }
 
         /// <summary>
+        /// Adds a level to queue
+        /// </summary>
+        /// <param name="gameStage"></param>
+        public void EnqueueLevel(IGameStage gameStage)
+        {
+            levels.Enqueue(gameStage);
+            allLevels.Add(gameStage);
+        }
+
+        /// <summary>
+        /// Get amount of levels
+        /// </summary>
+        public int GetLevelCount => levels.Count;
+
+        /// <summary>
         /// Sets up a new level
         /// </summary>
         private void SetupLevel()
         {
-            currentLevel = Dequeue();
+            currentLevel = levels.Dequeue();
 
             currentLevel.OnStageWin += OnStageWin;
             currentLevel.OnStageLose += OnStageLose;
@@ -53,9 +73,7 @@ namespace NieGadalismyOGrach
         private void OnStageLose()
         {
             //if you fail, add failed level back to queue
-            levels.Add(currentLevel);
-
-            levels.Shuffle();
+            levels.Enqueue(currentLevel);
 
             StageEnd();
         }
@@ -78,27 +96,6 @@ namespace NieGadalismyOGrach
         }
 
         /// <summary>
-        /// Dequeues a level from list, and then shuffle it to randomize
-        /// </summary>
-        /// <returns></returns>
-        private IGameStage Dequeue()
-        {
-            if (!levels.Any())
-            {
-                return null;
-            }
-            else
-            {
-                IGameStage r = levels.First();
-                levels.Remove(r);
-
-                levels.Shuffle();
-
-                return r;
-            }
-        }
-
-        /// <summary>
         /// Clean up stage
         /// </summary>
         private void CleanupLevel()
@@ -114,7 +111,7 @@ namespace NieGadalismyOGrach
         /// <summary>
         /// Called when all levels have been played
         /// </summary>
-        private void GameEnd()
+        public void GameEnd()
         {
             //Show some win screen
         }
@@ -125,6 +122,62 @@ namespace NieGadalismyOGrach
         private void OnStageWin()
         {
             StageEnd();
+        }
+
+        /// <summary>
+        /// Close all levels
+        /// </summary>
+        public void ForceCloseAllLLevels()
+        {
+            for (int i = 0; i < allLevels.Count; i++)
+            {
+                ((Window)allLevels[i]).Close();
+            }
+        }
+
+        /// <summary>
+        /// Completely remove any leftover levels
+        /// </summary>
+        public void ClearAllLevels()
+        {
+            levels.Clear();
+            ForceCloseAllLLevels();
+            allLevels.Clear();
+        }
+    }
+
+    public static class GameManagerEX
+    {
+        /// <summary>
+        /// Dequeues a level from list, and then shuffle it to randomize
+        /// </summary>
+        /// <returns>GameStage</returns>
+        public static IGameStage Dequeue(this List<IGameStage> list)
+        {
+            if (!list.Any())
+            {
+                return null;
+            }
+            else
+            {
+                IGameStage result = list.First();
+                list.Remove(result);
+
+                list.Shuffle();
+
+                return result;
+            }
+        }
+
+        /// <summary>
+        /// Adds a level to the queue and shuffles the order
+        /// </summary>
+        /// <param name="list">List of levels</param>
+        /// <param name="stage">level to add to list</param>
+        public static void Enqueue(this List<IGameStage> list, IGameStage stage)
+        {
+            list.Add(stage);
+            list.Shuffle();
         }
     }
 }
