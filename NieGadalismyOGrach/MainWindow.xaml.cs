@@ -29,6 +29,7 @@ namespace NieGadalismyOGrach
         public MainWindow()
         {
             InitializeComponent();
+            Task.Run(BlinkText);
 
             gameManager = new GameManager();
 
@@ -66,6 +67,34 @@ namespace NieGadalismyOGrach
             CatchTheButton ctb = new CatchTheButton();
             ctb.OnStageStart();
             ctb.Show();
+        }
+
+        private async Task BlinkText()
+        {
+            while (true)
+            {
+                Title.Dispatcher.Invoke(new Action(() =>
+                {
+                    Title.Foreground = new SolidColorBrush(Color.FromRgb(255, 0, 0));
+                }));
+                await Task.Delay(TimeSpan.FromSeconds(1));
+                Title.Dispatcher.Invoke(new Action(() =>
+                {
+                    Title.Foreground = new SolidColorBrush(Color.FromRgb(0, 255, 0));
+                }));
+                await Task.Delay(TimeSpan.FromSeconds(1));
+                Title.Dispatcher.Invoke(new Action(() =>
+                {
+                    Title.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 255));
+                }));
+                await Task.Delay(TimeSpan.FromSeconds(1));
+                Title.Dispatcher.Invoke(new Action(() =>
+                {
+                    Title.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                }));
+                await Task.Delay(TimeSpan.FromSeconds(1));
+
+            }
         }
     }
 }
