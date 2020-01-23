@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:Installer"
-"LanguageId" = "3:1033"
+"LanguageId" = "3:0"
 "CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"UILanguageId" = "3:0"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4571DE6510496F3084D33A079E90ED9E"
+        "MsmKey" = "8:_AA0D16281E901E162B817672C61CDB2F"
         "OwnerKey" = "8:_DF03804F3DCF4D2EA6E98F910CB8C66F"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,13 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4571DE6510496F3084D33A079E90ED9E"
+        "OwnerKey" = "8:_D742B7366E42499BB91D6D5652AEF062"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D742B7366E42499BB91D6D5652AEF062"
+        "OwnerKey" = "8:_AA0D16281E901E162B817672C61CDB2F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -106,6 +106,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -136,14 +144,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4571DE6510496F3084D33A079E90ED9E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA0D16281E901E162B817672C61CDB2F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:FunctionLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_4571DE6510496F3084D33A079E90ED9E"
+                    "_AA0D16281E901E162B817672C61CDB2F"
                     {
                     "Name" = "8:FunctionLibrary.dll"
                     "Attributes" = "3:512"
@@ -247,7 +255,7 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:0"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
@@ -255,7 +263,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:NieGadalismyOGrach"
         "ProductCode" = "8:{3AD293DA-EF2F-4A26-A62E-68C33C6FF12B}"
-        "PackageCode" = "8:{2A8AAF7E-4698-40CE-BD8A-A3920A865945}"
+        "PackageCode" = "8:{A6F2C2A3-FD77-4E48-B617-810C7F4FC3F1}"
         "UpgradeCode" = "8:{E9397305-232C-419B-8CE1-A1E31B4E4862}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
