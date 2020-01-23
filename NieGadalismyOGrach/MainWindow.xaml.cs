@@ -33,11 +33,7 @@ namespace NieGadalismyOGrach
 
             gameManager.EnqueueLevel(new CounterDecrease());
             gameManager.EnqueueLevel(new PickColor());
-        }
-
-        private void Butt1_Click(object sender, RoutedEventArgs e)
-        {
-            Task.Run(() => MousePointer.task1(this, Butt1));
+            gameManager.EnqueueLevel(new CatchTheButton());
         }
 
         //TODO: REMOVE
@@ -62,6 +58,13 @@ namespace NieGadalismyOGrach
         {
             gameManager.StartGame();
             this.WindowState = WindowState.Minimized;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            CatchTheButton ctb = new CatchTheButton();
+            ctb.OnStageStart();
+            ctb.Show();
         }
     }
 }
