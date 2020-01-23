@@ -60,11 +60,13 @@ namespace NieGadalismyOGrach
 
             if (counter == 0)
             {
+                MessageBox.Show(Properties.Resources.Stage_Cleared);
                 OnStageWin?.Invoke();
             }
 
             if (counter < 0)
             {
+                MessageBox.Show(Properties.Resources.U_Bad);
                 OnStageLose?.Invoke();
             }
         }
