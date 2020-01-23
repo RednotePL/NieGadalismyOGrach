@@ -48,12 +48,14 @@ namespace NieGadalismyOGrach
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int decreaseAmount = 1;
-            if (counter < 10)
-            {
-                decreaseAmount = rng.Next(1, 3);
-            }
 
             counter -= decreaseAmount;
+
+            if (counter == 10)
+            {
+                counter = 0;
+            }
+
             this.Btn1.Content = counter.ToString();
 
             System.Diagnostics.Debug.WriteLine(counter);
