@@ -64,7 +64,7 @@ namespace NieGadalismyOGrach
             if (clickedRight)
             {
                 currentTask.Content = Properties.Resources.ClickButtonRight;
-                Task.Run(() => MousePointer.task1(this, Butt1));
+                Task.Run(() => MousePointer.EscapeButtonTask(this, Butt1));
                 startRunning = true;
             }
         }

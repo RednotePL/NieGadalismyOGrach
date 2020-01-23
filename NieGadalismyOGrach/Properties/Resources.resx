@@ -348,4 +348,10 @@
   <data name="ClickButtonRight" xml:space="preserve">
     <value>Click the button on the right</value>
   </data>
+  <data name="ClickButtonLeft1" xml:space="preserve">
+    <value>Click the button on the left</value>
+  </data>
+  <data name="ClickButtonRight1" xml:space="preserve">
+    <value>Click the button on the right</value>
+  </data>
 </root>

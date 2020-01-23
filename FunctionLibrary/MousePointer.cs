@@ -19,7 +19,7 @@ namespace FunctionLibrary
         /// <param name="Y">Y Cord</param>
         /// <returns></returns>
         [DllImport("User32.dll")]
-        private static extern bool SetCursorPos(int X, int Y);
+        public static extern bool SetCursorPos(int X, int Y);
 
         /// <summary>
         /// get Current Mouse POINT Object
@@ -27,49 +27,25 @@ namespace FunctionLibrary
         /// <param name="lpPoint">returned Object</param>
         /// <returns></returns>
         [DllImport("User32.dll")]
-        private static extern bool GetCursorPos(out POINT lpPoint);
+        public static extern bool GetCursorPos(out POINT lpPoint);
 
         /// <summary>
-        /// Move cursor by X,Y pixels
+        /// Check if mouse pointer is in bounds
         /// </summary>
-        /// <param name="X">-left, +right</param>
-        /// <param name="Y">-down, +up</param>
-        private static void SetRelativeCursorPos(int X, int Y)
-        {
-            POINT p = new POINT();
-            GetCursorPos(out p);
-            SetCursorPos(p.X - X, p.Y - Y);
-        }
-
-        /// <summary>
-        /// Move cursor in X axis
-        /// </summary>
-        /// <param name="X">-left, +right</param>
-        private static void SetRelativeCursorPosX(int X)
-        {
-            POINT p = new POINT();
-            GetCursorPos(out p);
-            SetCursorPos(p.X - X, p.Y);
-        }
-
-        /// <summary>
-        /// Move cursor in Y axis
-        /// </summary>
-        /// <param name="Y">-down, +up</param>
-        private static void SetRelativeCursorPosY(int Y)
-        {
-            POINT p = new POINT();
-            GetCursorPos(out p);
-            SetCursorPos(p.X, p.Y - Y);
-        }
-
-
+        /// <param name="Bound">Point array</param>
+        /// <param name="Mouse">Mouse point</param>
+        /// <returns></returns>
         public static bool isMouseInBound(Point[] Bound, Point Mouse)
         {
             if (Mouse.X >= Bound[0].X && Mouse.X <= Bound[1].X && Mouse.Y >= Bound[0].Y && Mouse.Y <= Bound[1].Y) return true;
             else return false;
         }
 
+        /// <summary>
+        /// Calculate curent mouse pos in window
+        /// </summary>
+        /// <param name="window">Window</param>
+        /// <returns></returns>
         public static Point calculateMousePoint(this Window window)
         {
             POINT p = new POINT();
@@ -78,7 +54,13 @@ namespace FunctionLibrary
             return new Point(p.X - window.Left - 8, p.Y - window.Top - 31);
         }
 
-        public static async Task task1(this Window window, Control control)
+        /// <summary>
+        /// Task that will move the control away from cursor.
+        /// </summary>
+        /// <param name="window">Form Window</param>
+        /// <param name="control">WPF Control</param>
+        /// <returns></returns>
+        public static async Task EscapeButtonTask(this Window window, Control control)
         {
             while (true)
             {
