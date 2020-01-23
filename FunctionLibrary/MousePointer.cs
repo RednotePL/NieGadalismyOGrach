@@ -63,46 +63,6 @@ namespace FunctionLibrary
             SetCursorPos(p.X, p.Y - Y);
         }
 
-        public static void ControlMove(Control con, Thickness margin, Window window)
-        {
-            Thickness margin_new = new Thickness();
-            if (margin.Left > 0)
-            {
-                if (margin.Left + con.Width * 2 + 4 <= window.ActualWidth)
-                {
-                    margin_new.Left = margin.Left;
-                }
-                else
-                {
-                    margin_new.Left = window.ActualWidth - con.Width * 2 + 4;
-                }
-            }
-            else
-            {
-                margin_new.Left = 0;
-            }
-            if (margin.Top > 0)
-            {
-                if (margin.Top < window.ActualHeight - 60)
-                {
-                    margin_new.Top = margin.Top;
-                }
-                else
-                {
-                    margin_new.Top = window.ActualHeight - 60;
-                }
-            }
-            else
-            {
-                margin_new.Top = 0;
-            }
-            con.Margin = margin_new;
-        }
-
-        public static Point[] calculateObjectPanicArea(Control con)
-        {
-            return new Point[] { new Point(con.Margin.Left - 20, con.Margin.Top - 20), new Point(con.Margin.Left + con.Width + 20, con.Margin.Top + 50) };
-        }
 
         public static bool isMouseInBound(Point[] Bound, Point Mouse)
         {
@@ -127,26 +87,26 @@ namespace FunctionLibrary
                 window.Dispatcher.Invoke(DispatcherPriority.Normal,
                     new Action(() =>
                     {
-                        Point[] PanicArea = calculateObjectPanicArea(control);
+                        Point[] PanicArea = Controls.calculateObjectPanicArea(control);
                         Point MousePoint = calculateMousePoint(window);
                         Point[] WindowArea = new Point[] { new Point(0, 0), new Point(window.ActualWidth, window.Height - 30) };
                         if (isMouseInBound(PanicArea, MousePoint) && isMouseInBound(WindowArea, MousePoint))
                         {
                             if (MousePoint.X >= PanicArea[0].X && MousePoint.X <= control.Margin.Left)
                             {
-                                ControlMove(control, new Thickness(control.Margin.Left + new Random().Next(0, 10), control.Margin.Top, 0, 0), window);
+                                Controls.ControlMove(control, new Thickness(control.Margin.Left + new Random().Next(0, 10), control.Margin.Top, 0, 0), window);
                             }
                             else if (MousePoint.X <= PanicArea[1].X && MousePoint.X >= control.Margin.Left + control.Width)
                             {
-                                ControlMove(control, new Thickness(control.Margin.Left - new Random().Next(0, 10), control.Margin.Top, 0, 0), window);
+                                Controls.ControlMove(control, new Thickness(control.Margin.Left - new Random().Next(0, 10), control.Margin.Top, 0, 0), window);
                             }
                             if (MousePoint.Y >= PanicArea[0].Y && MousePoint.Y <= control.Margin.Top)
                             {
-                                ControlMove(control, new Thickness(control.Margin.Left, control.Margin.Top + new Random().Next(0, 10), 0, 0), window);
+                                Controls.ControlMove(control, new Thickness(control.Margin.Left, control.Margin.Top + new Random().Next(0, 10), 0, 0), window);
                             }
                             else if (MousePoint.Y <= PanicArea[1].Y && MousePoint.Y >= control.Margin.Top + 30)
                             {
-                                ControlMove(control, new Thickness(control.Margin.Left, control.Margin.Top - new Random().Next(0, 10), 0, 0), window);
+                                Controls.ControlMove(control, new Thickness(control.Margin.Left, control.Margin.Top - new Random().Next(0, 10), 0, 0), window);
                             }
                         }
                     }));
