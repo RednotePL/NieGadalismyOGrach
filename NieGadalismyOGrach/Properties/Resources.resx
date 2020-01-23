@@ -120,6 +120,9 @@
   <data name="Check" xml:space="preserve">
     <value>Check</value>
   </data>
+  <data name="Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
   <data name="AmaranthPink" xml:space="preserve">
     <value>Amaranth Pink</value>
   </data>
@@ -182,6 +185,9 @@
   </data>
   <data name="Count_To_0" xml:space="preserve">
     <value>Click until value is 0</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>Reset</value>
