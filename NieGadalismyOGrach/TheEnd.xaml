@@ -7,13 +7,12 @@
         mc:Ignorable="d"
         Title="TheEnd" Height="390.644" Width="203.681">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="274" Margin="10,10,0,0" VerticalAlignment="Top" Width="173" Source="pack://siteoforigin:,,,/Resources/296864987154211.png">
+        <Image HorizontalAlignment="Left" Height="274" Margin="10,10,0,0" VerticalAlignment="Top" Width="173" Source="296864987154211.png">
             <Image.OpacityMask>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/296864987154211.png"/>
+                <ImageBrush ImageSource="296864987154211.png" />
             </Image.OpacityMask>
         </Image>
-        <Label x:Name="endLabel" Content="Label" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.022,0.992" FontSize="20"/>
-        <Button Content="Ok" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="74"/>
-
+        <Label x:Name="endLabel" Content="Label" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.022,0.992" FontSize="20" />
+        <Button Content="Ok" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click" />
     </Grid>
 </Window>

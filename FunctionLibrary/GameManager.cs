@@ -11,6 +11,11 @@ namespace NieGadalismyOGrach
     public class GameManager
     {
         /// <summary>
+        /// Notifies main window about game ending
+        /// </summary>
+        public Action GameEndNotifier;
+
+        /// <summary>
         /// Queue to hold all level references
         /// </summary>
         private List<IGameStage> levels = new List<IGameStage>();
@@ -116,8 +121,9 @@ namespace NieGadalismyOGrach
         public void GameEnd()
         {
             //Show some win screen
-            
-            Environment.Exit(0);
+            GameEndNotifier?.Invoke();
+
+            //Environment.Exit(0);
         }
 
         /// <summary>

@@ -148,7 +148,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\296864987154211.png" />
+    <EmbeddedResource Include="Resources\296864987154211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="296864987154211.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

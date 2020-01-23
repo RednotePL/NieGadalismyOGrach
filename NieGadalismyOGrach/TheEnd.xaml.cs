@@ -14,15 +14,20 @@ using System.Windows.Shapes;
 
 namespace NieGadalismyOGrach
 {
-	/// <summary>
-	/// Logika interakcji dla klasy TheEnd.xaml
-	/// </summary>
-	public partial class TheEnd : Window
-	{
-		public TheEnd()
-		{
-			InitializeComponent();
-			endLabel.Content = Properties.Resources.THEEND;
-		}
-	}
+    /// <summary>
+    /// Logika interakcji dla klasy TheEnd.xaml
+    /// </summary>
+    public partial class TheEnd : Window
+    {
+        public TheEnd()
+        {
+            InitializeComponent();
+            endLabel.Content = Properties.Resources.THEEND;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
 }

@@ -33,9 +33,19 @@ namespace NieGadalismyOGrach
 
             gameManager = new GameManager();
 
+            gameManager.GameEndNotifier += EndLevel;
+
             gameManager.EnqueueLevel(new CounterDecrease());
             gameManager.EnqueueLevel(new PickColor());
             gameManager.EnqueueLevel(new CatchTheButton());
+        }
+
+        private void EndLevel()
+        {
+            TheEnd theEnd = new TheEnd();
+            theEnd.ShowDialog();
+
+            Environment.Exit(0);
         }
 
         //TODO: REMOVE
@@ -93,7 +103,6 @@ namespace NieGadalismyOGrach
                     Title.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
                 }));
                 await Task.Delay(TimeSpan.FromSeconds(1));
-
             }
         }
     }
