@@ -225,160 +225,130 @@
   <data name="ClickButtonRight" xml:space="preserve">
     <value>Wciśnij przycisk po prawej</value>
   </data>
-  <data name="Cyan" xml:space="preserve"> 
-    <value>Neonowy niebieski (cyjan)</value> 
-  </data> 
-  <data name="DeepPink" xml:space="preserve"> 
-    <value>Głęboki różowy</value> 
-  </data> 
-  <data name="FairyTale" xml:space="preserve"> 
-    <value>Wróżkowy różowy</value> 
-  </data> 
-  <data name="FandangoPink" xml:space="preserve"> 
-    <value>Fandango</value> 
-  </data> 
-  <data name="FrenchPink" xml:space="preserve"> 
-    <value>Francuski różowy</value> 
-  </data> 
-  <data name="Gold" xml:space="preserve"> 
-    <value>Złoty</value> 
-  </data> 
-  <data name="Gray" xml:space="preserve"> 
-    <value>Szary</value> 
-  </data> 
-  <data name="Green" xml:space="preserve"> 
-    <value>Zielony</value> 
-  </data> 
-  <data name="HotPink" xml:space="preserve"> 
-    <value>Gorący różowy</value> 
-  </data> 
-  <data name="LavenderPink" xml:space="preserve"> 
-    <value>Lawendowy różowy</value> 
-  </data> 
-  <data name="LightDeepPink" xml:space="preserve"> 
-    <value>Jasny głęboki różowy</value> 
-  </data> 
-  <data name="LightHotPink" xml:space="preserve"> 
-    <value>Jasny gorący różowy</value> 
-  </data> 
-  <data name="LightPink" xml:space="preserve"> 
-    <value>Jasny różowy</value> 
-  </data> 
-  <data name="Lime" xml:space="preserve"> 
-    <value>Neonowy zielony (limonkowy)</value> 
-  </data> 
-  <data name="MexicanPink" xml:space="preserve"> 
-    <value>Meksykański różowy</value> 
-  </data> 
-  <data name="MimiPink" xml:space="preserve"> 
-    <value>Mimi różowy</value> 
-  </data> 
-  <data name="MountbattenPink" xml:space="preserve"> 
-    <value>Różowy Mountbattena</value> 
-  </data> 
-  <data name="Navy" xml:space="preserve"> 
-    <value>Ciemny niebieski (navy)</value> 
-  </data> 
-  <data name="NewYorkPink" xml:space="preserve"> 
-    <value>Nowojorski różowy</value> 
-  </data> 
-  <data name="Orange" xml:space="preserve"> 
-    <value>Pomarańczowy</value> 
-  </data> 
-  <data name="OrchidPink" xml:space="preserve"> 
-    <value>Orchideowy</value> 
-  </data> 
-  <data name="PaleDogwood" xml:space="preserve"> 
-    <value>Blady dereń</value> 
-  </data> 
-  <data name="PalePink" xml:space="preserve"> 
-    <value>Bladoróżowy</value> 
-  </data> 
-  <data name="ParadisePink" xml:space="preserve"> 
-    <value>Rajski różowy</value> 
-  </data> 
-  <data name="PastelPink" xml:space="preserve"> 
-    <value>Pastelowy różowy</value> 
-  </data> 
-  <data name="PersianPink" xml:space="preserve"> 
-    <value>Perski różowy</value> 
-  </data> 
-  <data name="PickColorTask" xml:space="preserve"> 
-    <value>Wciśnij przycisk, który ma kolor</value> 
-  </data> 
-  <data name="PiggyPink" xml:space="preserve"> 
-    <value>Świński różowy</value> 
-  </data> 
-  <data name="Pink" xml:space="preserve"> 
-    <value>Różowy</value> 
-  </data> 
-  <data name="PinkLace" xml:space="preserve"> 
-    <value>Różowa sznurówka</value> 
-  </data> 
-  <data name="PinkLavender" xml:space="preserve"> 
-    <value>Różowa lawenda</value> 
-  </data> 
-  <data name="PinkU" xml:space="preserve"> 
-    <value>Pantone</value> 
-  </data> 
-  <data name="Purple" xml:space="preserve"> 
-    <value>Purpurowy</value> 
-  </data> 
-  <data name="QueenPink" xml:space="preserve"> 
-    <value>Różowy królowej</value> 
-  </data> 
-  <data name="Red" xml:space="preserve"> 
-    <value>Czerwony</value> 
-  </data> 
-  <data name="RosePink" xml:space="preserve"> 
-    <value>Różany</value> 
-  </data> 
-  <data name="RosePompadour" xml:space="preserve"> 
-    <value>Różowy pompadour</value> 
-  </data> 
-  <data name="ShockingPink" xml:space="preserve"> 
-    <value>Szokujący różowy</value> 
-  </data> 
-  <data name="SilverPink" xml:space="preserve"> 
-    <value>Srebrny różowy</value> 
-  </data> 
-  <data name="SolidPink" xml:space="preserve"> 
-    <value>Solidny różowy</value> 
-  </data> 
-  <data name="SpanishPink" xml:space="preserve"> 
-    <value>Hiszpański różowy</value> 
-  </data> 
-  <data name="Stage_Cleared" xml:space="preserve"> 
-    <value>WOW! Udało ci się.</value> 
-  </data> 
-  <data name="Start_The_Game" xml:space="preserve"> 
-    <value>Rozpocznij grę.</value> 
-  </data> 
-  <data name="SteelPink" xml:space="preserve"> 
-    <value>Stalowy różowy</value> 
-  </data> 
-  <data name="SuperPink" xml:space="preserve"> 
-    <value>Super różowy</value> 
-  </data> 
-  <data name="TangoPink" xml:space="preserve"> 
-    <value>Tango różowy</value> 
-  </data> 
-  <data name="TickleMePink" xml:space="preserve"> 
-    <value>Połaskocz mnie różowy</value> 
-  </data> 
-  <data name="Turquoise" xml:space="preserve"> 
-    <value>Turkusowy</value> 
-  </data> 
-  <data name="UltraPink" xml:space="preserve"> 
-    <value>Ultra różowy</value> 
-  </data> 
-  <data name="U_Bad" xml:space="preserve"> 
-    <value>Spróbuj ponownie.</value> 
-  </data> 
-  <data name="White" xml:space="preserve"> 
-    <value>Biały</value> 
-  </data> 
-  <data name="Yellow" xml:space="preserve"> 
-    <value>Żółty</value> 
+  <data name="Cyan" xml:space="preserve">
+    <value>Neonowy niebieski (cyjan)</value>
+  </data>
+  <data name="DeepPink" xml:space="preserve">
+    <value>Głęboki różowy</value>
+  </data>
+  <data name="FairyTale" xml:space="preserve">
+    <value>Wróżkowy różowy</value>
+  </data>
+  <data name="FandangoPink" xml:space="preserve">
+    <value>Fandango</value>
+  </data>
+  <data name="FrenchPink" xml:space="preserve">
+    <value>Francuski różowy</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Złoty</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Szary</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Zielony</value>
+  </data>
+  <data name="HotPink" xml:space="preserve">
+    <value>Gorący różowy</value>
+  </data>
+  <data name="LavenderPink" xml:space="preserve">
+    <value>Lawendowy różowy</value>
+  </data>
+  <data name="LightDeepPink" xml:space="preserve">
+    <value>Jasny głęboki różowy</value>
+  </data>
+  <data name="LightHotPink" xml:space="preserve">
+    <value>Jasny gorący różowy</value>
+  </data>
+  <data name="LightPink" xml:space="preserve">
+    <value>Jasny różowy</value>
+  </data>
+  <data name="Lime" xml:space="preserve">
+    <value>Neonowy zielony (limonkowy)</value>
+  </data>
+  <data name="MexicanPink" xml:space="preserve">
+    <value>Meksykański różowy</value>
+  </data>
+  <data name="MimiPink" xml:space="preserve">
+    <value>Mimi różowy</value>
+  </data>
+  <data name="MountbattenPink" xml:space="preserve">
+    <value>Różowy Mountbattena</value>
+  </data>
+  <data name="Navy" xml:space="preserve">
+    <value>Ciemny niebieski (navy)</value>
+  </data>
+  <data name="NewYorkPink" xml:space="preserve">
+    <value>Nowojorski różowy</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Pomarańczowy</value>
+  </data>
+  <data name="OrchidPink" xml:space="preserve">
+    <value>Orchideowy</value>
+  </data>
+  <data name="PaleDogwood" xml:space="preserve">
+    <value>Blady dereń</value>
+  </data>
+  <data name="PalePink" xml:space="preserve">
+    <value>Bladoróżowy</value>
+  </data>
+  <data name="ParadisePink" xml:space="preserve">
+    <value>Rajski różowy</value>
+  </data>
+  <data name="PastelPink" xml:space="preserve">
+    <value>Pastelowy różowy</value>
+  </data>
+  <data name="PersianPink" xml:space="preserve">
+    <value>Perski różowy</value>
+  </data>
+  <data name="PickColorTask" xml:space="preserve">
+    <value>Wciśnij przycisk, który ma kolor</value>
+  </data>
+  <data name="PiggyPink" xml:space="preserve">
+    <value>Świński różowy</value>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Różowy</value>
+  </data>
+  <data name="PinkLace" xml:space="preserve">
+    <value>Różowa sznurówka</value>
+  </data>
+  <data name="PinkLavender" xml:space="preserve">
+    <value>Różowa lawenda</value>
+  </data>
+  <data name="PinkU" xml:space="preserve">
+    <value>Pantone</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purpurowy</value>
+  </data>
+  <data name="QueenPink" xml:space="preserve">
+    <value>Różowy królowej</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Czerwony</value>
+  </data>
+  <data name="RosePink" xml:space="preserve">
+    <value>Różany</value>
+  </data>
+  <data name="RosePompadour" xml:space="preserve">
+    <value>Różowy pompadour</value>
+  </data>
+  <data name="ShockingPink" xml:space="preserve">
+    <value>Szokujący różowy</value>
+  </data>
+  <data name="SilverPink" xml:space="preserve">
+    <value>Srebrny różowy</value>
+  </data>
+  <data name="SolidPink" xml:space="preserve">
+    <value>Solidny różowy</value>
+  </data>
+  <data name="SpanishPink" xml:space="preserve">
+    <value>Hiszpański różowy</value>
+  </data>
+  <data name="THEEND" xml:space="preserve">
+    <value>Gratulacje!</value>
   </data>
 </root>

@@ -116,6 +116,7 @@ namespace NieGadalismyOGrach
         public void GameEnd()
         {
             //Show some win screen
+            
             Environment.Exit(0);
         }
 

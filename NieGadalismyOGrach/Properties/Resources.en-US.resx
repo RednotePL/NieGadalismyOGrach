@@ -300,4 +300,7 @@
   <data name="ClickButtonRight" xml:space="preserve">
     <value>Click the button on the right</value>
   </data>
+  <data name="END" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
 </root>
