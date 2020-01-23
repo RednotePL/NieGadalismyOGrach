@@ -168,9 +168,6 @@
   <data name="ChinaPink" xml:space="preserve">
     <value>Porcelanowy różowy</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Sprawdź</value>
-  </data>
   <data name="Click_The_Button" xml:space="preserve">
     <value>Kliknij na przycisk</value>
   </data>
@@ -221,5 +218,11 @@
   </data>
   <data name="Yellow" xml:space="preserve">
     <value>Żółty</value>
+  </data>
+  <data name="ClickButtonLeft" xml:space="preserve">
+    <value>Wciśnij przycisk po lewej</value>
+  </data>
+  <data name="ClickButtonRight" xml:space="preserve">
+    <value>Wciśnij przycisk po prawej</value>
   </data>
 </root>

@@ -22,10 +22,12 @@ namespace NieGadalismyOGrach
     public partial class CatchTheButton : Window, IGameStage
     {
         private bool startRunning = false;
+        private bool clickedRight = false;
 
         public CatchTheButton()
         {
             InitializeComponent();
+            currentTask.Content = Properties.Resources.ClickButtonRight;
         }
 
         public string StageName => "Click the button";
@@ -50,13 +52,21 @@ namespace NieGadalismyOGrach
             {
                 OnStageWin?.Invoke();
             }
+            else
+            {
+                clickedRight = true;
+                currentTask.Content = Properties.Resources.ClickButtonLeft;
+            }
         }
 
         private void StaButt_Click(object sender, RoutedEventArgs e)
         {
-            StaButt.Visibility = Visibility.Hidden;
-            Task.Run(() => MousePointer.task1(this, Butt1));
-            startRunning = true;
+            if (clickedRight)
+            {
+                currentTask.Content = Properties.Resources.ClickButtonRight;
+                Task.Run(() => MousePointer.task1(this, Butt1));
+                startRunning = true;
+            }
         }
     }
 }

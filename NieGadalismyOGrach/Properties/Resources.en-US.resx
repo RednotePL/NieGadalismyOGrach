@@ -133,10 +133,7 @@
     <value>Cotton Candy</value>
   </data>
   <data name="Count_To_0" xml:space="preserve">
-    <value>Click until value is 0</value>
-  </data>
-  <data name="Reset" xml:space="preserve">
-    <value>Reset</value>
+    <value>Click until the value on the button is 0</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>Reset</value>
@@ -296,5 +293,11 @@
   </data>
   <data name="Yellow" xml:space="preserve">
     <value>Yellow</value>
+  </data>
+  <data name="ClickButtonLeft" xml:space="preserve">
+    <value>Click the button on the left</value>
+  </data>
+  <data name="ClickButtonRight" xml:space="preserve">
+    <value>Click the button on the right</value>
   </data>
 </root>
