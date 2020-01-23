@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_AA0D16281E901E162B817672C61CDB2F"
+        "MsmKey" = "8:_4571DE6510496F3084D33A079E90ED9E"
         "OwnerKey" = "8:_DF03804F3DCF4D2EA6E98F910CB8C66F"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AA0D16281E901E162B817672C61CDB2F"
+        "OwnerKey" = "8:_DF03804F3DCF4D2EA6E98F910CB8C66F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DF03804F3DCF4D2EA6E98F910CB8C66F"
+        "OwnerKey" = "8:_4571DE6510496F3084D33A079E90ED9E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -99,6 +99,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -128,14 +136,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA0D16281E901E162B817672C61CDB2F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4571DE6510496F3084D33A079E90ED9E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:FunctionLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_AA0D16281E901E162B817672C61CDB2F"
+                    "_4571DE6510496F3084D33A079E90ED9E"
                     {
                     "Name" = "8:FunctionLibrary.dll"
                     "Attributes" = "3:512"

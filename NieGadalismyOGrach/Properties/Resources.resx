@@ -117,14 +117,188 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AmaranthPink" xml:space="preserve">
+    <value>Amaranth Pink</value>
+  </data>
+  <data name="BabyPink" xml:space="preserve">
+    <value>Baby Pink</value>
+  </data>
+  <data name="BakerMillerPink" xml:space="preserve">
+    <value>Baker-Miller Pink</value>
+  </data>
+  <data name="BarbiePink" xml:space="preserve">
+    <value>Barbie Pink</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="BrightPink" xml:space="preserve">
+    <value>Bright Pink</value>
+  </data>
+  <data name="BrinkPink" xml:space="preserve">
+    <value>Brink Pink</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="CameoPink" xml:space="preserve">
+    <value>Cameo Pink</value>
+  </data>
+  <data name="CarnationPink" xml:space="preserve">
+    <value>Carnation Pink</value>
+  </data>
+  <data name="ChampagnePink" xml:space="preserve">
+    <value>Champagne Pink</value>
+  </data>
+  <data name="CharmPink" xml:space="preserve">
+    <value>Charm Pink</value>
+  </data>
+  <data name="CherryBlossomPink" xml:space="preserve">
+    <value>Cherry Blossom Pink</value>
+  </data>
+  <data name="ChileanPink" xml:space="preserve">
+    <value>Chilean Pink</value>
+  </data>
+  <data name="ChinaPink" xml:space="preserve">
+    <value>China Pink</value>
+  </data>
   <data name="Click_The_Button" xml:space="preserve">
     <value>Click the button.</value>
   </data>
   <data name="Congratz" xml:space="preserve">
     <value>Congratulations.</value>
   </data>
+  <data name="CoralPink" xml:space="preserve">
+    <value>Coral Pink</value>
+  </data>
+  <data name="CottonCandy" xml:space="preserve">
+    <value>Cotton Candy</value>
+  </data>
   <data name="Count_To_0" xml:space="preserve">
     <value>Click until value is 0</value>
+  </data>
+  <data name="Cyan" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="DeepPink" xml:space="preserve">
+    <value>Deep Pink</value>
+  </data>
+  <data name="FairyTale" xml:space="preserve">
+    <value>Fairy Tale</value>
+  </data>
+  <data name="FandangoPink" xml:space="preserve">
+    <value>Fandango Pink</value>
+  </data>
+  <data name="FrenchPink" xml:space="preserve">
+    <value>French Pink</value>
+  </data>
+  <data name="Gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="HotPink" xml:space="preserve">
+    <value>Hot Pink</value>
+  </data>
+  <data name="LavenderPink" xml:space="preserve">
+    <value>Lavender Pink</value>
+  </data>
+  <data name="LightDeepPink" xml:space="preserve">
+    <value>Light Deep Pink</value>
+  </data>
+  <data name="LightHotPink" xml:space="preserve">
+    <value>Light Hot Pink</value>
+  </data>
+  <data name="LightPink" xml:space="preserve">
+    <value>Light Pink</value>
+  </data>
+  <data name="Lime" xml:space="preserve">
+    <value>Lime</value>
+  </data>
+  <data name="MexicanPink" xml:space="preserve">
+    <value>Mexican Pink</value>
+  </data>
+  <data name="MimiPink" xml:space="preserve">
+    <value>Mimi Pink</value>
+  </data>
+  <data name="MountbattenPink" xml:space="preserve">
+    <value>Mountbatten Pink</value>
+  </data>
+  <data name="Navy" xml:space="preserve">
+    <value>Navy</value>
+  </data>
+  <data name="NewYorkPink" xml:space="preserve">
+    <value>New York Pink</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="OrchidPink" xml:space="preserve">
+    <value>Orchid Pink</value>
+  </data>
+  <data name="PaleDogwood" xml:space="preserve">
+    <value>Pale Dogwood</value>
+  </data>
+  <data name="PalePink" xml:space="preserve">
+    <value>Pale Pink</value>
+  </data>
+  <data name="ParadisePink" xml:space="preserve">
+    <value>Paradise Pink</value>
+  </data>
+  <data name="PastelPink" xml:space="preserve">
+    <value>Pastel Pink</value>
+  </data>
+  <data name="PersianPink" xml:space="preserve">
+    <value>Persian Pink</value>
+  </data>
+  <data name="PiggyPink" xml:space="preserve">
+    <value>Piggy Pink</value>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="PinkLace" xml:space="preserve">
+    <value>Pink Lace</value>
+  </data>
+  <data name="PinkLavender" xml:space="preserve">
+    <value>Pink Lavender</value>
+  </data>
+  <data name="PinkU" xml:space="preserve">
+    <value>Pink U</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="QueenPink" xml:space="preserve">
+    <value>Queen Pink</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="RosePink" xml:space="preserve">
+    <value>Rose Pink</value>
+  </data>
+  <data name="RosePompadour" xml:space="preserve">
+    <value>Rose Pompadour</value>
+  </data>
+  <data name="ShockingPink" xml:space="preserve">
+    <value>Shocking Pink</value>
+  </data>
+  <data name="SilverPink" xml:space="preserve">
+    <value>Silver Pink</value>
+  </data>
+  <data name="SolidPink" xml:space="preserve">
+    <value>Solid Pink</value>
+  </data>
+  <data name="SpanishPink" xml:space="preserve">
+    <value>Spanish Pink</value>
   </data>
   <data name="Stage_Cleared" xml:space="preserve">
     <value>WOW! U did it.</value>
@@ -132,7 +306,31 @@
   <data name="Start_The_Game" xml:space="preserve">
     <value>Start this funy game.</value>
   </data>
+  <data name="SteelPink" xml:space="preserve">
+    <value>Steel Pink</value>
+  </data>
+  <data name="SuperPink" xml:space="preserve">
+    <value>Super Pink</value>
+  </data>
+  <data name="TangoPink" xml:space="preserve">
+    <value>Tango Pink</value>
+  </data>
+  <data name="TickleMePink" xml:space="preserve">
+    <value>Tickle Me Pink</value>
+  </data>
+  <data name="Turquoise" xml:space="preserve">
+    <value>Turquoise</value>
+  </data>
+  <data name="UltraPink" xml:space="preserve">
+    <value>Ultra Pink</value>
+  </data>
   <data name="U_Bad" xml:space="preserve">
-    <value>U bad.</value>
+    <value>Good luck next time.</value>
+  </data>
+  <data name="White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Yellow</value>
   </data>
 </root>
