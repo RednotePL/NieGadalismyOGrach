@@ -72,6 +72,8 @@ namespace NieGadalismyOGrach
         /// </summary>
         private void OnStageLose()
         {
+            MessageBox.Show("U BAD");
+
             //if you fail, add failed level back to queue
             levels.Enqueue(currentLevel);
 
@@ -105,7 +107,7 @@ namespace NieGadalismyOGrach
             currentLevel.OnStageLose -= OnStageLose;
             currentLevel.OnStageWin -= OnStageWin;
 
-            ((Window)currentLevel).Close();
+            ((Window)currentLevel).Hide();
         }
 
         /// <summary>
@@ -114,6 +116,8 @@ namespace NieGadalismyOGrach
         public void GameEnd()
         {
             //Show some win screen
+            MessageBox.Show("CONGRATULATIONS U WON ZE GAME!1!!oneONE");
+            Environment.Exit(0);
         }
 
         /// <summary>
@@ -121,6 +125,7 @@ namespace NieGadalismyOGrach
         /// </summary>
         private void OnStageWin()
         {
+            MessageBox.Show("CONGRATULATIONS");
             StageEnd();
         }
 

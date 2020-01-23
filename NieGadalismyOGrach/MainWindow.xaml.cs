@@ -30,7 +30,9 @@ namespace NieGadalismyOGrach
             InitializeComponent();
 
             gameManager = new GameManager();
+
             gameManager.EnqueueLevel(new CounterDecrease());
+            gameManager.EnqueueLevel(new PickColor());
         }
 
         private void Butt1_Click(object sender, RoutedEventArgs e)
@@ -44,14 +46,22 @@ namespace NieGadalismyOGrach
             CounterDecrease cd = new CounterDecrease();
             cd.Show();
         }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             PickColor pc = new PickColor();
             pc.Show();
         }
+
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            gameManager.ForceCloseAllLLevels();
+            gameManager.ClearAllLevels();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            gameManager.StartGame();
+            this.WindowState = WindowState.Minimized;
         }
     }
 }

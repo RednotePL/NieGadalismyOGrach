@@ -42,6 +42,7 @@ namespace NieGadalismyOGrach
         public void OnStageStart()
         {
             counter = 50;
+            this.Btn1.Content = counter.ToString();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -49,6 +50,8 @@ namespace NieGadalismyOGrach
             int decreaseAmount = rng.Next(1, 5);
             counter -= decreaseAmount;
             this.Btn1.Content = counter.ToString();
+
+            System.Diagnostics.Debug.WriteLine(counter);
 
             if (counter == 0)
             {
@@ -58,11 +61,6 @@ namespace NieGadalismyOGrach
             if (counter < 0)
             {
                 OnStageLose?.Invoke();
-
-                if (OnStageLose == null)
-                {
-                    Close();
-                }
             }
         }
     }
