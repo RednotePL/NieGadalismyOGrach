@@ -117,53 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AmaranthPink" xml:space="preserve">
-    <value>Amaranth Pink</value>
-  </data>
-  <data name="BabyPink" xml:space="preserve">
-    <value>Baby Pink</value>
-  </data>
-  <data name="BakerMillerPink" xml:space="preserve">
-    <value>Baker-Miller Pink</value>
-  </data>
-  <data name="BarbiePink" xml:space="preserve">
-    <value>Barbie Pink</value>
-  </data>
-  <data name="Black" xml:space="preserve">
-    <value>Black</value>
-  </data>
-  <data name="Blue" xml:space="preserve">
-    <value>Blue</value>
-  </data>
-  <data name="BrightPink" xml:space="preserve">
-    <value>Bright Pink</value>
-  </data>
-  <data name="BrinkPink" xml:space="preserve">
-    <value>Brink Pink</value>
-  </data>
-  <data name="Brown" xml:space="preserve">
-    <value>Brown</value>
-  </data>
-  <data name="CameoPink" xml:space="preserve">
-    <value>Cameo Pink</value>
-  </data>
-  <data name="CarnationPink" xml:space="preserve">
-    <value>Carnation Pink</value>
-  </data>
-  <data name="ChampagnePink" xml:space="preserve">
-    <value>Champagne Pink</value>
-  </data>
-  <data name="CharmPink" xml:space="preserve">
-    <value>Charm Pink</value>
-  </data>
-  <data name="CherryBlossomPink" xml:space="preserve">
-    <value>Cherry Blossom Pink</value>
-  </data>
-  <data name="ChileanPink" xml:space="preserve">
-    <value>Chilean Pink</value>
-  </data>
-  <data name="ChinaPink" xml:space="preserve">
-    <value>China Pink</value>
+  <data name="Check" xml:space="preserve">
+    <value>Check</value>
   </data>
   <data name="Click_The_Button" xml:space="preserve">
     <value>Click the button.</value>
@@ -179,6 +134,9 @@
   </data>
   <data name="Count_To_0" xml:space="preserve">
     <value>Click until value is 0</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
   </data>
   <data name="Cyan" xml:space="preserve">
     <value>Cyan</value>

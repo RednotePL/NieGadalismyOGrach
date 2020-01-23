@@ -61,6 +61,15 @@ namespace NieGadalismyOGrach.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Check.
+        /// </summary>
+        public static string Check {
+            get {
+                return ResourceManager.GetString("Check", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Amaranth Pink.
         /// </summary>
         public static string AmaranthPink {
@@ -615,6 +624,15 @@ namespace NieGadalismyOGrach.Properties {
         public static string SpanishPink {
             get {
                 return ResourceManager.GetString("SpanishPink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset.
+        /// </summary>
+        public static string Reset {
+            get {
+                return ResourceManager.GetString("Reset", resourceCulture);
             }
         }
         

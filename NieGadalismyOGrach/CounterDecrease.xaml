@@ -10,5 +10,7 @@
     <Grid>
         <Button x:Name="Btn1" Content="50" HorizontalAlignment="Center" VerticalAlignment="Top" Width="250" Margin="0,275,0,0" Height="100" Click="Button_Click" FontSize="64" />
         <Label Content="{x:Static properties:Resources.Count_To_0}" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" FontSize="48" />
+        <Button Content="{x:Static properties:Resources.Reset}" HorizontalAlignment="Left" Margin="60,275,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_2" />
+        <Button Content="{x:Static properties:Resources.Check}" HorizontalAlignment="Left" Margin="640,275,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_1" />
     </Grid>
 </Window>

@@ -57,7 +57,10 @@ namespace NieGadalismyOGrach
             this.Btn1.Content = counter.ToString();
 
             System.Diagnostics.Debug.WriteLine(counter);
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
             if (counter == 0)
             {
                 MessageBox.Show(Properties.Resources.Stage_Cleared);
@@ -69,6 +72,11 @@ namespace NieGadalismyOGrach
                 MessageBox.Show(Properties.Resources.U_Bad);
                 OnStageLose?.Invoke();
             }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            OnStageStart();
         }
     }
 }

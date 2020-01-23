@@ -21,6 +21,8 @@ namespace NieGadalismyOGrach
     /// </summary>
     public partial class CatchTheButton : Window, IGameStage
     {
+        private bool startRunning = false;
+
         public CatchTheButton()
         {
             InitializeComponent();
@@ -34,16 +36,27 @@ namespace NieGadalismyOGrach
 
         public void OnStageEnd()
         {
+            StaButt.Visibility = Visibility.Visible;
         }
 
         public void OnStageStart()
         {
-            Task.Run(() => MousePointer.task1(this, Butt1));
+            StaButt.Visibility = Visibility.Visible;
         }
 
         private void Butt1_Click(object sender, RoutedEventArgs e)
         {
-            OnStageWin?.Invoke();
+            if (startRunning)
+            {
+                OnStageWin?.Invoke();
+            }
+        }
+
+        private void StaButt_Click(object sender, RoutedEventArgs e)
+        {
+            StaButt.Visibility = Visibility.Hidden;
+            Task.Run(() => MousePointer.task1(this, Butt1));
+            startRunning = true;
         }
     }
 }
