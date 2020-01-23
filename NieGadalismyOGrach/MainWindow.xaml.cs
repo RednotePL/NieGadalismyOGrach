@@ -44,7 +44,11 @@ namespace NieGadalismyOGrach
             CounterDecrease cd = new CounterDecrease();
             cd.Show();
         }
-
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            PickColor pc = new PickColor();
+            pc.Show();
+        }
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             gameManager.ForceCloseAllLLevels();

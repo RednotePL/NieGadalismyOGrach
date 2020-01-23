@@ -1,0 +1,63 @@
+﻿<Window x:Class="NieGadalismyOGrach.PickColor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NieGadalismyOGrach"
+        mc:Ignorable="d"
+        Title="PickColorEasy" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="titleLabel" Content="Pick a button in&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24" Height="39"/>
+        <Label x:Name="colorLabel" Content="" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.144,0.372" FontSize="24"/>
+        <Button x:Name="colorButton0" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton1" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton2" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton3" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton4" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton5" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton6" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton7" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton8" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton9" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton10" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton11" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton12" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton13" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton14" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton15" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton16" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton17" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton18" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton19" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton20" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton21" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton22" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton23" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton24" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton25" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton26" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton27" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton28" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton29" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton30" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton31" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton32" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton33" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton34" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton35" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton36" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton37" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton38" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton39" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton40" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton41" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton42" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton43" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton44" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton45" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton46" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton47" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton48" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+        <Button x:Name="colorButton49" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
+    </Grid>
+</Window>
