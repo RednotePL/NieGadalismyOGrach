@@ -118,21 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Click_The_Button" xml:space="preserve">
-    <value>Click the button.</value>
+    <value>Kliknij na przycisk</value>
   </data>
   <data name="Congratz" xml:space="preserve">
-    <value>Congratulations.</value>
+    <value>Gratulacje.</value>
   </data>
   <data name="Count_To_0" xml:space="preserve">
-    <value>Click until value is 0</value>
+    <value>Klikaj w przycisk do wartości 0</value>
   </data>
   <data name="Stage_Cleared" xml:space="preserve">
-    <value>WOW! U did it.</value>
+    <value>WOW! Udało ci się.</value>
   </data>
   <data name="Start_The_Game" xml:space="preserve">
-    <value>Start this funy game.</value>
+    <value>Rozpocznij gre.</value>
   </data>
   <data name="U_Bad" xml:space="preserve">
-    <value>U bad.</value>
+    <value>Słabo :/</value>
   </data>
 </root>

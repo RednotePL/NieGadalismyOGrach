@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NieGadalismyOGrach"
+        xmlns:properties="clr-namespace:NieGadalismyOGrach.Properties"
         mc:Ignorable="d"
         Title="CatchTheButton" Height="450" Width="800">
     <Grid>
         <Button x:Name="Butt1" Content=":P" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" Click="Butt1_Click" Margin="400,200,0,0" />
+        <Label Content="{x:Static properties:Resources.Click_The_Button}" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" FontSize="48"/>
     </Grid>
 </Window>

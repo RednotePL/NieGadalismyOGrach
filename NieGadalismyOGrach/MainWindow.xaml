@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NieGadalismyOGrach"
+        xmlns:properties="clr-namespace:NieGadalismyOGrach.Properties"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="754.155" Left="20" Closing="Window_Closing">
     <Grid>
@@ -13,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <Button Content="CounterDecrease" HorizontalAlignment="Left" Margin="71,56,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click" />
         <Button Content="Pick a color" HorizontalAlignment="Left" Margin="71,81,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" />
-        <Button Content="StartGame" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="75" Click="Button_Click_2" />
+        <Button Content="{x:Static properties:Resources.Start_The_Game}" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Click="Button_Click_2" />
         <Button Content="Catch" HorizontalAlignment="Left" Margin="71,106,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" />
     </Grid>
 </Window>
