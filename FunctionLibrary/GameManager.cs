@@ -64,6 +64,8 @@ namespace NieGadalismyOGrach
             currentLevel.OnStageLose += OnStageLose;
 
             ((Window)currentLevel).Show();
+            ((Window)currentLevel).Title = currentLevel.StageName;
+
             currentLevel.OnStageStart();
         }
 
