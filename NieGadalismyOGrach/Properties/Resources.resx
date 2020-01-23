@@ -258,6 +258,9 @@
   <data name="PersianPink" xml:space="preserve">
     <value>Persian Pink</value>
   </data>
+  <data name="PickColorTask" xml:space="preserve">
+    <value>Pick a button in</value>
+  </data>
   <data name="PiggyPink" xml:space="preserve">
     <value>Piggy Pink</value>
   </data>

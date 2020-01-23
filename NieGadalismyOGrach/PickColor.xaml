@@ -4,10 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NieGadalismyOGrach"
+        xmlns:properties="clr-namespace:NieGadalismyOGrach.Properties"
         mc:Ignorable="d"
         Title="PickColorEasy" Height="450" Width="800">
     <Grid>
-        <Label x:Name="titleLabel" Content="Pick a button in&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24" Height="39"/>
+        <Label x:Name="titleLabel" Content="{x:Static properties:Resources.PickColorTask}" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="24" Height="39"/>
         <Label x:Name="colorLabel" Content="" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.144,0.372" FontSize="24"/>
         <Button x:Name="colorButton0" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>
         <Button x:Name="colorButton1" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="20" Height="20" Click="colorButton_Click"/>

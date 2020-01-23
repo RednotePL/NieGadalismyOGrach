@@ -484,6 +484,15 @@ namespace NieGadalismyOGrach.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pick a button in.
+        /// </summary>
+        public static string PickColorTask {
+            get {
+                return ResourceManager.GetString("PickColorTask", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Piggy Pink.
         /// </summary>
         public static string PiggyPink {
