@@ -1,13 +1,8 @@
 # NieGadalismyOGrach
 
-## TODO
-
-* Aplikacja WPF (powłoka graficzna)
-  * brak przywieszeń (lecimy asynckiem sporo rzeczy)
-  * Generalne robimy gui w XAML'u...
-
-* ClassLIB (Funkcjonalność)
-  * Wszystko co nie wymaga zmiany w GUI (u nas prawie nic...)
-
-* Testy dla publicznych elementów w ClassLib
-  * Asia umie :D
+## Prosta gra bedąca zarazem bardziej skomplikowaną niż wygląda.
+- Zawiera 3 poziomy.
+- Dokumentacje logiki (Folder \_site w podkatalogu FunctionLibrary)
+- Poręczny instaaltor.
+- Język automatycznie zmieniany między Polskim i Angielskim.
+- 50 odcieni różowego.
