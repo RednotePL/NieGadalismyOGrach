@@ -1,0 +1,248 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/konta/Desktop/NieGadalismyOGrach-dev/FunctionLibrary",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "vD97cmWoMoQi+gq1BXS6sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "nl3MyrB4I2nJjGH14MurRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "xz6QUYeuXGdusbYzh1rmMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FunctionLibrary.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FunctionLibrary.Controls.html",
+          "hash": "OLOi2Y4hDgcbpOp7Ahp/Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FunctionLibrary.MousePointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FunctionLibrary.MousePointer.html",
+          "hash": "v0NSmN5uL8D6w2a0ruYiyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FunctionLibrary.POINT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FunctionLibrary.POINT.html",
+          "hash": "+XKHH/QFH2YodjsMMdvwuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FunctionLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FunctionLibrary.html",
+          "hash": "K21qqm1kzCrS/53x7Xwnug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.Extensions.html",
+          "hash": "pb+8q2xDp+0VuDBX2ZbPNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.GameManager.html",
+          "hash": "L8geM5ANis6qdRGDZATWzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.GameManagerEX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.GameManagerEX.html",
+          "hash": "B1evKDvseMtZKb3Em0ZJMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.Interfaces.IGameStage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.Interfaces.IGameStage.html",
+          "hash": "CfoniCR+WOGHE+hjo6JwAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.Interfaces.html",
+          "hash": "I3ldST498EEAZMelKtYwUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/NieGadalismyOGrach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NieGadalismyOGrach.html",
+          "hash": "QQgh4upjpNQLSzAUq8qokQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "cQnpwBHpl3Otpm3sdywDGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

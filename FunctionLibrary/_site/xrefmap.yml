@@ -1,0 +1,408 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FunctionLibrary
+  name: FunctionLibrary
+  href: api/FunctionLibrary.html
+  commentId: N:FunctionLibrary
+  fullName: FunctionLibrary
+  nameWithType: FunctionLibrary
+- uid: FunctionLibrary.Controls
+  name: Controls
+  href: api/FunctionLibrary.Controls.html
+  commentId: T:FunctionLibrary.Controls
+  fullName: FunctionLibrary.Controls
+  nameWithType: Controls
+- uid: FunctionLibrary.Controls.calculateObjectPanicArea(System.Windows.Controls.Control)
+  name: calculateObjectPanicArea(Control)
+  href: api/FunctionLibrary.Controls.html#FunctionLibrary_Controls_calculateObjectPanicArea_System_Windows_Controls_Control_
+  commentId: M:FunctionLibrary.Controls.calculateObjectPanicArea(System.Windows.Controls.Control)
+  fullName: FunctionLibrary.Controls.calculateObjectPanicArea(System.Windows.Controls.Control)
+  nameWithType: Controls.calculateObjectPanicArea(Control)
+- uid: FunctionLibrary.Controls.calculateObjectPanicArea*
+  name: calculateObjectPanicArea
+  href: api/FunctionLibrary.Controls.html#FunctionLibrary_Controls_calculateObjectPanicArea_
+  commentId: Overload:FunctionLibrary.Controls.calculateObjectPanicArea
+  isSpec: "True"
+  fullName: FunctionLibrary.Controls.calculateObjectPanicArea
+  nameWithType: Controls.calculateObjectPanicArea
+- uid: FunctionLibrary.Controls.ControlMove(System.Windows.Controls.Control,System.Windows.Thickness,System.Windows.Window)
+  name: ControlMove(Control, Thickness, Window)
+  href: api/FunctionLibrary.Controls.html#FunctionLibrary_Controls_ControlMove_System_Windows_Controls_Control_System_Windows_Thickness_System_Windows_Window_
+  commentId: M:FunctionLibrary.Controls.ControlMove(System.Windows.Controls.Control,System.Windows.Thickness,System.Windows.Window)
+  fullName: FunctionLibrary.Controls.ControlMove(System.Windows.Controls.Control, System.Windows.Thickness, System.Windows.Window)
+  nameWithType: Controls.ControlMove(Control, Thickness, Window)
+- uid: FunctionLibrary.Controls.ControlMove*
+  name: ControlMove
+  href: api/FunctionLibrary.Controls.html#FunctionLibrary_Controls_ControlMove_
+  commentId: Overload:FunctionLibrary.Controls.ControlMove
+  isSpec: "True"
+  fullName: FunctionLibrary.Controls.ControlMove
+  nameWithType: Controls.ControlMove
+- uid: FunctionLibrary.MousePointer
+  name: MousePointer
+  href: api/FunctionLibrary.MousePointer.html
+  commentId: T:FunctionLibrary.MousePointer
+  fullName: FunctionLibrary.MousePointer
+  nameWithType: MousePointer
+- uid: FunctionLibrary.MousePointer.calculateMousePoint(System.Windows.Window)
+  name: calculateMousePoint(Window)
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_calculateMousePoint_System_Windows_Window_
+  commentId: M:FunctionLibrary.MousePointer.calculateMousePoint(System.Windows.Window)
+  fullName: FunctionLibrary.MousePointer.calculateMousePoint(System.Windows.Window)
+  nameWithType: MousePointer.calculateMousePoint(Window)
+- uid: FunctionLibrary.MousePointer.calculateMousePoint*
+  name: calculateMousePoint
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_calculateMousePoint_
+  commentId: Overload:FunctionLibrary.MousePointer.calculateMousePoint
+  isSpec: "True"
+  fullName: FunctionLibrary.MousePointer.calculateMousePoint
+  nameWithType: MousePointer.calculateMousePoint
+- uid: FunctionLibrary.MousePointer.EscapeButtonTask(System.Windows.Window,System.Windows.Controls.Control)
+  name: EscapeButtonTask(Window, Control)
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_EscapeButtonTask_System_Windows_Window_System_Windows_Controls_Control_
+  commentId: M:FunctionLibrary.MousePointer.EscapeButtonTask(System.Windows.Window,System.Windows.Controls.Control)
+  fullName: FunctionLibrary.MousePointer.EscapeButtonTask(System.Windows.Window, System.Windows.Controls.Control)
+  nameWithType: MousePointer.EscapeButtonTask(Window, Control)
+- uid: FunctionLibrary.MousePointer.EscapeButtonTask*
+  name: EscapeButtonTask
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_EscapeButtonTask_
+  commentId: Overload:FunctionLibrary.MousePointer.EscapeButtonTask
+  isSpec: "True"
+  fullName: FunctionLibrary.MousePointer.EscapeButtonTask
+  nameWithType: MousePointer.EscapeButtonTask
+- uid: FunctionLibrary.MousePointer.GetCursorPos(FunctionLibrary.POINT@)
+  name: GetCursorPos(out POINT)
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_GetCursorPos_FunctionLibrary_POINT__
+  commentId: M:FunctionLibrary.MousePointer.GetCursorPos(FunctionLibrary.POINT@)
+  name.vb: GetCursorPos(ByRef POINT)
+  fullName: FunctionLibrary.MousePointer.GetCursorPos(out FunctionLibrary.POINT)
+  fullName.vb: FunctionLibrary.MousePointer.GetCursorPos(ByRef FunctionLibrary.POINT)
+  nameWithType: MousePointer.GetCursorPos(out POINT)
+  nameWithType.vb: MousePointer.GetCursorPos(ByRef POINT)
+- uid: FunctionLibrary.MousePointer.GetCursorPos*
+  name: GetCursorPos
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_GetCursorPos_
+  commentId: Overload:FunctionLibrary.MousePointer.GetCursorPos
+  fullName: FunctionLibrary.MousePointer.GetCursorPos
+  nameWithType: MousePointer.GetCursorPos
+- uid: FunctionLibrary.MousePointer.isMouseInBound(System.Windows.Point[],System.Windows.Point)
+  name: isMouseInBound(Point[], Point)
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_isMouseInBound_System_Windows_Point___System_Windows_Point_
+  commentId: M:FunctionLibrary.MousePointer.isMouseInBound(System.Windows.Point[],System.Windows.Point)
+  name.vb: isMouseInBound(Point(), Point)
+  fullName: FunctionLibrary.MousePointer.isMouseInBound(System.Windows.Point[], System.Windows.Point)
+  fullName.vb: FunctionLibrary.MousePointer.isMouseInBound(System.Windows.Point(), System.Windows.Point)
+  nameWithType: MousePointer.isMouseInBound(Point[], Point)
+  nameWithType.vb: MousePointer.isMouseInBound(Point(), Point)
+- uid: FunctionLibrary.MousePointer.isMouseInBound*
+  name: isMouseInBound
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_isMouseInBound_
+  commentId: Overload:FunctionLibrary.MousePointer.isMouseInBound
+  isSpec: "True"
+  fullName: FunctionLibrary.MousePointer.isMouseInBound
+  nameWithType: MousePointer.isMouseInBound
+- uid: FunctionLibrary.MousePointer.SetCursorPos(System.Int32,System.Int32)
+  name: SetCursorPos(Int32, Int32)
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_SetCursorPos_System_Int32_System_Int32_
+  commentId: M:FunctionLibrary.MousePointer.SetCursorPos(System.Int32,System.Int32)
+  fullName: FunctionLibrary.MousePointer.SetCursorPos(System.Int32, System.Int32)
+  nameWithType: MousePointer.SetCursorPos(Int32, Int32)
+- uid: FunctionLibrary.MousePointer.SetCursorPos*
+  name: SetCursorPos
+  href: api/FunctionLibrary.MousePointer.html#FunctionLibrary_MousePointer_SetCursorPos_
+  commentId: Overload:FunctionLibrary.MousePointer.SetCursorPos
+  fullName: FunctionLibrary.MousePointer.SetCursorPos
+  nameWithType: MousePointer.SetCursorPos
+- uid: FunctionLibrary.POINT
+  name: POINT
+  href: api/FunctionLibrary.POINT.html
+  commentId: T:FunctionLibrary.POINT
+  fullName: FunctionLibrary.POINT
+  nameWithType: POINT
+- uid: FunctionLibrary.POINT.#ctor(System.Int32,System.Int32)
+  name: POINT(Int32, Int32)
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT__ctor_System_Int32_System_Int32_
+  commentId: M:FunctionLibrary.POINT.#ctor(System.Int32,System.Int32)
+  fullName: FunctionLibrary.POINT.POINT(System.Int32, System.Int32)
+  nameWithType: POINT.POINT(Int32, Int32)
+- uid: FunctionLibrary.POINT.#ctor*
+  name: POINT
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT__ctor_
+  commentId: Overload:FunctionLibrary.POINT.#ctor
+  isSpec: "True"
+  fullName: FunctionLibrary.POINT.POINT
+  nameWithType: POINT.POINT
+- uid: FunctionLibrary.POINT.op_Implicit(FunctionLibrary.POINT)~System.Windows.Point
+  name: Implicit(POINT to Point)
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT_op_Implicit_FunctionLibrary_POINT__System_Windows_Point
+  commentId: M:FunctionLibrary.POINT.op_Implicit(FunctionLibrary.POINT)~System.Windows.Point
+  name.vb: Widening(POINT to Point)
+  fullName: FunctionLibrary.POINT.Implicit(FunctionLibrary.POINT to System.Windows.Point)
+  fullName.vb: FunctionLibrary.POINT.Widening(FunctionLibrary.POINT to System.Windows.Point)
+  nameWithType: POINT.Implicit(POINT to Point)
+  nameWithType.vb: POINT.Widening(POINT to Point)
+- uid: FunctionLibrary.POINT.op_Implicit(System.Windows.Point)~FunctionLibrary.POINT
+  name: Implicit(Point to POINT)
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT_op_Implicit_System_Windows_Point__FunctionLibrary_POINT
+  commentId: M:FunctionLibrary.POINT.op_Implicit(System.Windows.Point)~FunctionLibrary.POINT
+  name.vb: Widening(Point to POINT)
+  fullName: FunctionLibrary.POINT.Implicit(System.Windows.Point to FunctionLibrary.POINT)
+  fullName.vb: FunctionLibrary.POINT.Widening(System.Windows.Point to FunctionLibrary.POINT)
+  nameWithType: POINT.Implicit(Point to POINT)
+  nameWithType.vb: POINT.Widening(Point to POINT)
+- uid: FunctionLibrary.POINT.op_Implicit*
+  name: Implicit
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT_op_Implicit_
+  commentId: Overload:FunctionLibrary.POINT.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: FunctionLibrary.POINT.Implicit
+  fullName.vb: FunctionLibrary.POINT.Widening
+  nameWithType: POINT.Implicit
+  nameWithType.vb: POINT.Widening
+- uid: FunctionLibrary.POINT.X
+  name: X
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT_X
+  commentId: F:FunctionLibrary.POINT.X
+  fullName: FunctionLibrary.POINT.X
+  nameWithType: POINT.X
+- uid: FunctionLibrary.POINT.Y
+  name: Y
+  href: api/FunctionLibrary.POINT.html#FunctionLibrary_POINT_Y
+  commentId: F:FunctionLibrary.POINT.Y
+  fullName: FunctionLibrary.POINT.Y
+  nameWithType: POINT.Y
+- uid: NieGadalismyOGrach
+  name: NieGadalismyOGrach
+  href: api/NieGadalismyOGrach.html
+  commentId: N:NieGadalismyOGrach
+  fullName: NieGadalismyOGrach
+  nameWithType: NieGadalismyOGrach
+- uid: NieGadalismyOGrach.Extensions
+  name: Extensions
+  href: api/NieGadalismyOGrach.Extensions.html
+  commentId: T:NieGadalismyOGrach.Extensions
+  fullName: NieGadalismyOGrach.Extensions
+  nameWithType: Extensions
+- uid: NieGadalismyOGrach.Extensions.Shuffle*
+  name: Shuffle
+  href: api/NieGadalismyOGrach.Extensions.html#NieGadalismyOGrach_Extensions_Shuffle_
+  commentId: Overload:NieGadalismyOGrach.Extensions.Shuffle
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Extensions.Shuffle
+  nameWithType: Extensions.Shuffle
+- uid: NieGadalismyOGrach.Extensions.Shuffle``1(System.Collections.Generic.IList{``0})
+  name: Shuffle<T>(IList<T>)
+  href: api/NieGadalismyOGrach.Extensions.html#NieGadalismyOGrach_Extensions_Shuffle__1_System_Collections_Generic_IList___0__
+  commentId: M:NieGadalismyOGrach.Extensions.Shuffle``1(System.Collections.Generic.IList{``0})
+  name.vb: Shuffle(Of T)(IList(Of T))
+  fullName: NieGadalismyOGrach.Extensions.Shuffle<T>(System.Collections.Generic.IList<T>)
+  fullName.vb: NieGadalismyOGrach.Extensions.Shuffle(Of T)(System.Collections.Generic.IList(Of T))
+  nameWithType: Extensions.Shuffle<T>(IList<T>)
+  nameWithType.vb: Extensions.Shuffle(Of T)(IList(Of T))
+- uid: NieGadalismyOGrach.GameManager
+  name: GameManager
+  href: api/NieGadalismyOGrach.GameManager.html
+  commentId: T:NieGadalismyOGrach.GameManager
+  fullName: NieGadalismyOGrach.GameManager
+  nameWithType: GameManager
+- uid: NieGadalismyOGrach.GameManager.ClearAllLevels
+  name: ClearAllLevels()
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_ClearAllLevels
+  commentId: M:NieGadalismyOGrach.GameManager.ClearAllLevels
+  fullName: NieGadalismyOGrach.GameManager.ClearAllLevels()
+  nameWithType: GameManager.ClearAllLevels()
+- uid: NieGadalismyOGrach.GameManager.ClearAllLevels*
+  name: ClearAllLevels
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_ClearAllLevels_
+  commentId: Overload:NieGadalismyOGrach.GameManager.ClearAllLevels
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.ClearAllLevels
+  nameWithType: GameManager.ClearAllLevels
+- uid: NieGadalismyOGrach.GameManager.EnqueueLevel(NieGadalismyOGrach.Interfaces.IGameStage)
+  name: EnqueueLevel(IGameStage)
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_EnqueueLevel_NieGadalismyOGrach_Interfaces_IGameStage_
+  commentId: M:NieGadalismyOGrach.GameManager.EnqueueLevel(NieGadalismyOGrach.Interfaces.IGameStage)
+  fullName: NieGadalismyOGrach.GameManager.EnqueueLevel(NieGadalismyOGrach.Interfaces.IGameStage)
+  nameWithType: GameManager.EnqueueLevel(IGameStage)
+- uid: NieGadalismyOGrach.GameManager.EnqueueLevel*
+  name: EnqueueLevel
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_EnqueueLevel_
+  commentId: Overload:NieGadalismyOGrach.GameManager.EnqueueLevel
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.EnqueueLevel
+  nameWithType: GameManager.EnqueueLevel
+- uid: NieGadalismyOGrach.GameManager.ForceCloseAllLLevels
+  name: ForceCloseAllLLevels()
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_ForceCloseAllLLevels
+  commentId: M:NieGadalismyOGrach.GameManager.ForceCloseAllLLevels
+  fullName: NieGadalismyOGrach.GameManager.ForceCloseAllLLevels()
+  nameWithType: GameManager.ForceCloseAllLLevels()
+- uid: NieGadalismyOGrach.GameManager.ForceCloseAllLLevels*
+  name: ForceCloseAllLLevels
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_ForceCloseAllLLevels_
+  commentId: Overload:NieGadalismyOGrach.GameManager.ForceCloseAllLLevels
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.ForceCloseAllLLevels
+  nameWithType: GameManager.ForceCloseAllLLevels
+- uid: NieGadalismyOGrach.GameManager.GameEnd
+  name: GameEnd()
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_GameEnd
+  commentId: M:NieGadalismyOGrach.GameManager.GameEnd
+  fullName: NieGadalismyOGrach.GameManager.GameEnd()
+  nameWithType: GameManager.GameEnd()
+- uid: NieGadalismyOGrach.GameManager.GameEnd*
+  name: GameEnd
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_GameEnd_
+  commentId: Overload:NieGadalismyOGrach.GameManager.GameEnd
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.GameEnd
+  nameWithType: GameManager.GameEnd
+- uid: NieGadalismyOGrach.GameManager.GameEndNotifier
+  name: GameEndNotifier
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_GameEndNotifier
+  commentId: F:NieGadalismyOGrach.GameManager.GameEndNotifier
+  fullName: NieGadalismyOGrach.GameManager.GameEndNotifier
+  nameWithType: GameManager.GameEndNotifier
+- uid: NieGadalismyOGrach.GameManager.GetLevelCount
+  name: GetLevelCount
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_GetLevelCount
+  commentId: P:NieGadalismyOGrach.GameManager.GetLevelCount
+  fullName: NieGadalismyOGrach.GameManager.GetLevelCount
+  nameWithType: GameManager.GetLevelCount
+- uid: NieGadalismyOGrach.GameManager.GetLevelCount*
+  name: GetLevelCount
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_GetLevelCount_
+  commentId: Overload:NieGadalismyOGrach.GameManager.GetLevelCount
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.GetLevelCount
+  nameWithType: GameManager.GetLevelCount
+- uid: NieGadalismyOGrach.GameManager.StartGame
+  name: StartGame()
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_StartGame
+  commentId: M:NieGadalismyOGrach.GameManager.StartGame
+  fullName: NieGadalismyOGrach.GameManager.StartGame()
+  nameWithType: GameManager.StartGame()
+- uid: NieGadalismyOGrach.GameManager.StartGame*
+  name: StartGame
+  href: api/NieGadalismyOGrach.GameManager.html#NieGadalismyOGrach_GameManager_StartGame_
+  commentId: Overload:NieGadalismyOGrach.GameManager.StartGame
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManager.StartGame
+  nameWithType: GameManager.StartGame
+- uid: NieGadalismyOGrach.GameManagerEX
+  name: GameManagerEX
+  href: api/NieGadalismyOGrach.GameManagerEX.html
+  commentId: T:NieGadalismyOGrach.GameManagerEX
+  fullName: NieGadalismyOGrach.GameManagerEX
+  nameWithType: GameManagerEX
+- uid: NieGadalismyOGrach.GameManagerEX.Dequeue(System.Collections.Generic.List{NieGadalismyOGrach.Interfaces.IGameStage})
+  name: Dequeue(List<IGameStage>)
+  href: api/NieGadalismyOGrach.GameManagerEX.html#NieGadalismyOGrach_GameManagerEX_Dequeue_System_Collections_Generic_List_NieGadalismyOGrach_Interfaces_IGameStage__
+  commentId: M:NieGadalismyOGrach.GameManagerEX.Dequeue(System.Collections.Generic.List{NieGadalismyOGrach.Interfaces.IGameStage})
+  name.vb: Dequeue(List(Of IGameStage))
+  fullName: NieGadalismyOGrach.GameManagerEX.Dequeue(System.Collections.Generic.List<NieGadalismyOGrach.Interfaces.IGameStage>)
+  fullName.vb: NieGadalismyOGrach.GameManagerEX.Dequeue(System.Collections.Generic.List(Of NieGadalismyOGrach.Interfaces.IGameStage))
+  nameWithType: GameManagerEX.Dequeue(List<IGameStage>)
+  nameWithType.vb: GameManagerEX.Dequeue(List(Of IGameStage))
+- uid: NieGadalismyOGrach.GameManagerEX.Dequeue*
+  name: Dequeue
+  href: api/NieGadalismyOGrach.GameManagerEX.html#NieGadalismyOGrach_GameManagerEX_Dequeue_
+  commentId: Overload:NieGadalismyOGrach.GameManagerEX.Dequeue
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManagerEX.Dequeue
+  nameWithType: GameManagerEX.Dequeue
+- uid: NieGadalismyOGrach.GameManagerEX.Enqueue(System.Collections.Generic.List{NieGadalismyOGrach.Interfaces.IGameStage},NieGadalismyOGrach.Interfaces.IGameStage)
+  name: Enqueue(List<IGameStage>, IGameStage)
+  href: api/NieGadalismyOGrach.GameManagerEX.html#NieGadalismyOGrach_GameManagerEX_Enqueue_System_Collections_Generic_List_NieGadalismyOGrach_Interfaces_IGameStage__NieGadalismyOGrach_Interfaces_IGameStage_
+  commentId: M:NieGadalismyOGrach.GameManagerEX.Enqueue(System.Collections.Generic.List{NieGadalismyOGrach.Interfaces.IGameStage},NieGadalismyOGrach.Interfaces.IGameStage)
+  name.vb: Enqueue(List(Of IGameStage), IGameStage)
+  fullName: NieGadalismyOGrach.GameManagerEX.Enqueue(System.Collections.Generic.List<NieGadalismyOGrach.Interfaces.IGameStage>, NieGadalismyOGrach.Interfaces.IGameStage)
+  fullName.vb: NieGadalismyOGrach.GameManagerEX.Enqueue(System.Collections.Generic.List(Of NieGadalismyOGrach.Interfaces.IGameStage), NieGadalismyOGrach.Interfaces.IGameStage)
+  nameWithType: GameManagerEX.Enqueue(List<IGameStage>, IGameStage)
+  nameWithType.vb: GameManagerEX.Enqueue(List(Of IGameStage), IGameStage)
+- uid: NieGadalismyOGrach.GameManagerEX.Enqueue*
+  name: Enqueue
+  href: api/NieGadalismyOGrach.GameManagerEX.html#NieGadalismyOGrach_GameManagerEX_Enqueue_
+  commentId: Overload:NieGadalismyOGrach.GameManagerEX.Enqueue
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.GameManagerEX.Enqueue
+  nameWithType: GameManagerEX.Enqueue
+- uid: NieGadalismyOGrach.Interfaces
+  name: NieGadalismyOGrach.Interfaces
+  href: api/NieGadalismyOGrach.Interfaces.html
+  commentId: N:NieGadalismyOGrach.Interfaces
+  fullName: NieGadalismyOGrach.Interfaces
+  nameWithType: NieGadalismyOGrach.Interfaces
+- uid: NieGadalismyOGrach.Interfaces.IGameStage
+  name: IGameStage
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html
+  commentId: T:NieGadalismyOGrach.Interfaces.IGameStage
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage
+  nameWithType: IGameStage
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd
+  name: OnStageEnd()
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageEnd
+  commentId: M:NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd()
+  nameWithType: IGameStage.OnStageEnd()
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd*
+  name: OnStageEnd
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageEnd_
+  commentId: Overload:NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageEnd
+  nameWithType: IGameStage.OnStageEnd
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose
+  name: OnStageLose
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageLose
+  commentId: P:NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose
+  nameWithType: IGameStage.OnStageLose
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose*
+  name: OnStageLose
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageLose_
+  commentId: Overload:NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageLose
+  nameWithType: IGameStage.OnStageLose
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart
+  name: OnStageStart()
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageStart
+  commentId: M:NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart()
+  nameWithType: IGameStage.OnStageStart()
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart*
+  name: OnStageStart
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageStart_
+  commentId: Overload:NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageStart
+  nameWithType: IGameStage.OnStageStart
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin
+  name: OnStageWin
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageWin
+  commentId: P:NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin
+  nameWithType: IGameStage.OnStageWin
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin*
+  name: OnStageWin
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_OnStageWin_
+  commentId: Overload:NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.OnStageWin
+  nameWithType: IGameStage.OnStageWin
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.StageName
+  name: StageName
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_StageName
+  commentId: P:NieGadalismyOGrach.Interfaces.IGameStage.StageName
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.StageName
+  nameWithType: IGameStage.StageName
+- uid: NieGadalismyOGrach.Interfaces.IGameStage.StageName*
+  name: StageName
+  href: api/NieGadalismyOGrach.Interfaces.IGameStage.html#NieGadalismyOGrach_Interfaces_IGameStage_StageName_
+  commentId: Overload:NieGadalismyOGrach.Interfaces.IGameStage.StageName
+  isSpec: "True"
+  fullName: NieGadalismyOGrach.Interfaces.IGameStage.StageName
+  nameWithType: IGameStage.StageName
